@@ -1,0 +1,141 @@
+cv:
+  name: "Emilien Valat"
+  headline: "Machine Learning Research Engineer"
+  location: Warsaw, Poland
+  email: "emilienvalat@gmail.com"
+  phone: +48 5 72 93 21 30
+  website: "https://emvlt.github.io"
+  social_networks:
+    - network: GitHub
+      username: "Emvlt"
+
+  sections:
+    summary:
+      - Machine Learning Research Engineer with a PhD in Engineering and a
+        Master Degree in Optics. Proven expertise in developing novel neural
+        network architectures and training procedures, and open-source software
+        contributions.
+
+    skills:
+      - label: MLOps and Infrastructure
+        details: "[AWS Certified ML Engineer –
+          Associate](https://www.credly.com/badges/217132b9-b7e1-48b6-a79c-d3f8\
+          22e9c785/public_url), Docker, GitHub, CI/CD, DVC, Railway, Google
+          Cloud."
+      - label: Programming & Web
+        details: Python (NumPy, SciPy, Pandas, FastAPI, Pydantic), React, JS API, Git,
+          uv, Go (learning).
+      - label: Machine Learning & AI
+        details: PyTorch, PyGeom, OpenCV, Gemini API, Graph Neural Networks (GNN),
+          Transformers.
+      - label: "Databases"
+        details: PostgreSQL, SQLite, SQLAlchemy, MongoDB.
+      - label: "Languages"
+        details: English (fluent), French (native), Polish (basics).
+
+    experience:
+      - company: "Kungliga Tekniska Högskolan, Department of Mathematics"
+        position: "PostDoctoral Researcher"
+        location: "Stockholm, Sweden"
+        start_date: "2024-02"
+        end_date: "2026-01"
+        summary: Research on deep-learning for Computerised Tomography (CT) and
+          co-developer of [ODL](https://github.com/odlgroup/odl).
+        highlights:
+          - Developed the [first GNN-based approach for tomographic
+            imaging](https://arxiv.org/abs/2511.12730), dividing the number of
+            trainable parameters by 7, the memory usage by 1.2 and the training
+            time by 2.5  while achieving a  10% improvement in PSNR and SSIM
+            compared to CNN benchmarks.
+          - Created a [self-supervised pretraining
+            scheme](https://www.aimsciences.org/article/doi/10.3934/ammc.2025012)
+            that reduced the need for labeled training data by 90% while
+            maintaining 98% model performance for sparse-view, low dose CT.
+          - Led the architectural migration of ODL to a multi-backend system,
+            reducing the time of tomographic reconstruction by a factor of 2.3
+            through the removal of CPU/GPU copies. Removed manual deployment
+            errors by automating a test and PyPi/ReadTheDocs deployment pipeline
+            using GitHub Workflows. Shipped the first major update in 7 years.
+      - company: "Cambridge University, Department of Applied Mathematics"
+        position: "PostDoctoral Researcher"
+        location: "Cambridge, UK"
+        start_date: "2023-01"
+        end_date: "2024-01"
+        highlights:
+          - "[Achieved an increase of 4 Dice
+            score](https://www.aimsciences.org/article/doi/10.3934/ammc.2024015)
+            in medical image segmentation by developing and tuning a joint
+            reconstruction/segmentation scheme on a dataset of ~14K samples."
+          - "[Contributed](https://iopscience.iop.org/article/10.1088/2631-8695\
+            /adbb3a/meta) to open source software
+            [TIGRE](https://github.com/CERN/TIGRE/tree/master) and
+            [LION](https://github.com/CambridgeCIA/LION/tree/main) (PyTorch
+            binders, dataloaders)."
+        summary: Research on medical image segmentation and scientific software
+          development.
+      - company: "Bristol University, Department of Economics"
+        position: "Computer Vision Engineer"
+        location: "Bristol, UK"
+        start_date: "2021-07"
+        end_date: "2022-12"
+        highlights:
+          - Unlocked the ability to analyse unstructured historical documents by
+            deploying a novel CV segmentation algorithm, successfully processing
+            ~5K handwritten maps.
+          - >
+            Designed a synthetic data augmentation strategy to address class
+            imbalance and utilised DVC for model versioning to prevent model
+            drift.
+        summary: Computer Vision engineer for the
+          [MAPHIS](https://www.bristol.ac.uk/economics/research/impact-and-influence/mapping-history/)
+          project
+
+    education:
+      - institution: "Southampton University"
+        area: "Computer Science and Engineering"
+        degree: "PhD"
+        location: "Southampton, UK"
+        start_date: "2019-01"
+        end_date: "2023-01"
+        summary: "Thesis entitled 'Integrating Prior-Knowledge to X-Ray Computed
+          Tomography Using Machine Learning', passed with Minor Corrections."
+        highlights:
+          - "Recipient of Turing Enrichment Scheme, 2022 Cohort (£1,500)"
+      - institution: "Institut d’Optique Graduate School"
+        area: "Optical Engineering"
+        degree: "MEng"
+        location: "Palaiseau, France"
+        start_date: "2013-09"
+        end_date: "2018-06"
+        summary: Photonic Systems Engineering, Wave Physics, Signal Processing.
+
+    projects:
+      - name: " [MOIRAI ](https://moirai.up.railway.app)"
+        start_date: "2026-02"
+        end_date: "present"
+        summary: Reduced literary analysis time from days to minutes per book by
+          building MOIRAI, a novel visualization app powered by Gemini APIs to
+          automatically extract character arcs.
+        highlights:
+          - Compiled a vector database of ~1.3K fictional character arcs by
+            processing 180 books from the Gutenberg Project.
+          - Full-stack development (React, VITE, FastAPI, SQLAlchemy, Pydantic)
+            and deployment on Railway and Google Cloud using Docker and GitHub
+            Actions. Used Gemini Python and JS API for character extraction and
+            sentiment analysis.
+          - Built the app in a month [in the context of the Gemini Live Agent
+            Hackathon](https://devpost.com/software/moirai-e2ankb?ref_content=user-portfolio&ref_feature=in_progress).
+          - Currently expanding the MOIRAI architecture by migrating
+            data-ingestion microservices from Python to Go to improve concurrent
+            processing speed by using a load balancer.
+    interests:
+      - name: "[The
+          Beavers](https://sites.google.com/view/emilien-valat/creative-writing\
+          )"
+        highlights: []
+        summary: I learned narration, story-telling and creative writing during a
+          sustained two-year effort, enhancing technical communication and
+          cross-functional storytelling skills.
+        date:
+        end_date: present
+        start_date: 2023-09
