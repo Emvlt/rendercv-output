@@ -35,7 +35,7 @@ cv:
 
     experience:
       - company: "Kungliga Tekniska Högskolan, Department of Mathematics"
-        position: "PostDoctoral Researcher"
+        position: Research Scientist
         location: "Stockholm, Sweden"
         start_date: "2024-02"
         end_date: "2026-01"
@@ -57,7 +57,7 @@ cv:
             errors by automating a test and PyPi/ReadTheDocs deployment pipeline
             using GitHub Workflows. Shipped the first major update in 7 years.
       - company: "Cambridge University, Department of Applied Mathematics"
-        position: "PostDoctoral Researcher"
+        position: Research Scientist
         location: "Cambridge, UK"
         start_date: "2023-01"
         end_date: "2024-01"
